@@ -1,116 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World 101</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">	
+	<!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiasl-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/css/bootstrap-social.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+	<title>FangyuanZhang</title>
+		
 </head>
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"> Home</a>
+            <div class="collapse navbar-collapse" id = Navbar>
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span></a></li>
+                   <li class="nav-item"><a class="nav-link" href="https://github.com/FangyuanZhang34"><span class="fa fa-info fa-lg"></span> GitHub</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/fangyuan34/"><span class="fa fa-list fa-lg"></span> LinkedIn</a></li>                                                   
+              </ul>
+            </div>
+        </div>
+        
+    </nav>
 
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="https://github.com">GitHub</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="https://github.com/Carol34">Carol34 <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Repositories
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="https://github.com/Carol34/Carol34.github.io">Carol34.github.io</a>
-	          <a class="dropdown-item" href="https://github.com/Carol34/Leetcode">Leetcode</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="https://github.com/Carol34?tab=stars">Stars in GitHub</a>
-	        </div>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link disabled" href="https://www.linkedin.com/feed/">Linkedin</a>
-	      </li>
-	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
-	  </div>
-	</nav>
-
-	<!-- Jumbotron -->
-	<div class="jumbotron">
-	  <h1 class="display-4">Hello, world!</h1>
-	  <p class="lead">A "Hello, World!" is traditionally used in a sanity test to make sure that a computer language is correctly installed, and that the operator understands how to use it.</p>
-	  <hr class="my-4">
-	  <p class="it_is">"Hello, world!" tradition was influenced by an example program in the seminal book The C Programming Language.</p>
-	  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-		  Learn more...
-		</button>
-	  
-	</div>	
-
-	<!-- Button trigger modal -->
-	<div class="trigger_modal">
-		<a class="btn btn-primary btn-lg" href="https://glot.io/" role="button">Program it</a>
-	</div>
-
-	<!-- Modal1 -->
-	<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	  <div class="modal-dialog modal-dialog-centered" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	        ...
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
-	      </div>
-	    </div>
-	  </div>
-	</div> -->
-
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h2 class="modal-title" id="exampleModalLongTitle">Hello World!</h2>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	      	<h4 class="History">History</h4>
-	        While small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, world!" as a test message was influenced by an example program in the seminal book The C Programming Language. <br> The example program from that book prints "hello, world" (without capital letters or exclamation mark), and was inherited[citation needed] from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:<br><br>
-	        <img src="C_hello_world.png">
-	        The C version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[5] where the first known version of the program is found in an example used to illustrate external variables:
-	        <img src="History2.png">
-	        <h4>Variations</h4>
-	        There are many variations on the punctuation and casing of the phrase. <br>Variations include the presence or absence of the comma and exclamation mark, and the capitalization of the 'H', both the 'H' and the 'W', or neither. <br>Some languages are forced to implement different forms, such as "HELLO WORLD", on systems that support only capital letters, while many "hello, world" programs in esoteric languages print out a slightly modified string. For example, the first non-trivial Malbolge program printed "HEllO WORld", this having been determined to be good enough.
-	        <h6>from Wikipedia</h6>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-	      </div>
-	    </div>
-	  </div>
-	</div>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                	<p></p>
+                    <h1>Fangyuan Zhang</h1>
+                    <p></p>
+                    <p>Graduate student at University of Southern California <br>Major in Electrical Engineering</p>
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
