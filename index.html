@@ -7,10 +7,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/css/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="shortcut icon" href="./browserIcon.png">
+    <link rel="icon" type="image/png" href="./browserIcon.png" sizes="16x16">
 	<title>FangyuanZhang</title>
 		
 </head>
@@ -20,12 +23,12 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"> Home</a>
+            <a class="navbar-brand mr-auto" href="#"><span class="fa fa-home"></span> Home</a>
             <div class="collapse navbar-collapse" id = Navbar>
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span></a></li>
-                   <li class="nav-item"><a class="nav-link" href="https://github.com/FangyuanZhang34"><span class="fa fa-info fa-lg"></span> GitHub</a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/fangyuan34/"><span class="fa fa-list fa-lg"></span> LinkedIn</a></li>                                                   
+                  <li class="nav-item active"><a class="nav-link" href="#"></a></li>
+                   <li class="nav-item"><a class="nav-link" href="https://github.com/FangyuanZhang34"></span> GitHub</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/fangyuan34/"></span> LinkedIn</a></li>                                                   
               </ul>
             </div>
         </div>
@@ -36,22 +39,46 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-12">
                 	<p></p>
                     <h1>Fangyuan Zhang</h1>
                     <p></p>
                     <p>Graduate student at University of Southern California <br>Major in Electrical Engineering</p>
-                </div>
-                <div class="col-12 col-sm">
                 </div>
             </div>
         </div>
     </header>
 
 
+
+
+
+
+    <div class="container">
+
+        <div class="row row-content align-items-center">
+           
+            <div class="col col-sm col-md">
+                <div class="media">                   
+                    <div class="media-body">
+                        <h2 class="mt-0"><a href="http://ec2-13-59-38-240.us-east-2.compute.amazonaws.com/Jupiter/" target="_blank">Events Recommendation System </a><span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">This events recommendation system is based on Ticket Master API. Users can register and login to their own account, and get information of events nearby. Users can also click "heart" for the favorite events, and then the backend use this information to do item-based events recommendation for them. This system has been deployed on AWS server.</p>
+                    </div>
+                    <div class="col-1"></div>
+                    <a href="http://ec2-13-59-38-240.us-east-2.compute.amazonaws.com/Jupiter/" target="_blank"><img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/eventsRecommendation.jpg" alt="events recommendation system"></a>
+                </div>
+            </div>
+        </div> 
+
+
+
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 </body>
 </html>
